@@ -4,7 +4,7 @@
       "command": "node",
       "args": ["server.js"],
       "env": {
-        "GEMINI_API_KEY": "",
+        "GEMINI_API_KEY": "AIzaSyDJa6zy5vpkeBVW7vYmx61ZGY1LQocIqFQ",
         "NANO_BANANA_PROMPT_REPO_PATH": "./prompts"
       }
     }
