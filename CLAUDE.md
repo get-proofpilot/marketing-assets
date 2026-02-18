@@ -4,25 +4,23 @@ Turn ideas into shippable marketing assets in a single session.
 
 ## Setup (one-time)
 
-1. Clone the Nano Banana prompt library into `./prompts`:
-   ```
-   git clone https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts.git prompts
-   ```
-2. Set your Gemini API key:
+1. Set your Gemini API key:
    ```
    export GEMINI_API_KEY="your-key-here"
    ```
    Or add `GEMINI_API_KEY` to `.mcp.json` env block.
-3. Install dependencies:
+2. Install dependencies:
    ```
    npm install
    ```
 
-## Reference repos
+## Bundled repos
 
-- **Awesome Claude Skills** (execution layer): https://github.com/ComposioHQ/awesome-claude-skills
+Both reference repos are included in this repository:
+
+- **`./skills/`** — Awesome Claude Skills (execution layer)
   - Use for: hook banks, script-to-caption pipelines, repurposing workflows, consistent Marketing OS outputs
-- **Awesome Nano Banana Pro Prompts** (creative layer): https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts
+- **`./prompts/`** — Awesome Nano Banana Pro Prompts (creative layer, 9,400+ prompts)
   - Use for: reel covers, carousel backgrounds, ad creative styles, consistent visual house style
 
 ## Campaign Workflow (3 phases)
